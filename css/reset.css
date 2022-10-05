@@ -6,16 +6,34 @@
 body{
     height: 100vh;
 }
+.page-container{
+    height: calc(100vh - 100px);
+    width: 100vw;
+    display: flex;
+}
+
+header{
+    height: 90px;
+    position: fixed;
+    left: 180px;
+    top: 0;
+    width: calc(100% - 180px);
+    background-color: rgba(1, 1, 1, 0.4);
+}
 aside{
-    width: 180px;  
+    width: 230px;  
+    background-color: black;
+    padding: 20px;
 }
 main{
     width:  calc(100% - 180px);
+    background-color: #141922;
+    overflow-y: auto;
+    padding-top: 100px;
 }
-.page-container{
-    height: calc(100vh - 150px);
-    display: flex;
-}
+
 footer{
-    height: 150px;
+    height: 100px;
+    background-color: #282828;
 }
+

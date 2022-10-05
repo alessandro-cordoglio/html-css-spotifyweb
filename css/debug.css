@@ -4,11 +4,6 @@
 }
 .debug header{
     background-color: yellow;
-    height: 100px;
-    position: fixed;
-    left: 180px;
-    top: 0;
-    width: 100%;
 }
 .debug main{
     background-color: blue;
