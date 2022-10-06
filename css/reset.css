@@ -15,18 +15,19 @@ body{
 header{
     height: 90px;
     position: fixed;
-    left: 180px;
+    left: 210px;
     top: 0;
-    width: calc(100% - 180px);
+    width: calc(100% - 230px);
     background-color: rgba(1, 1, 1, 0.4);
 }
 aside{
     width: 230px;  
     background-color: black;
     padding: 20px;
+    overflow: auto;
 }
 main{
-    width:  calc(100% - 180px);
+    width:  calc(100% - 100px);
     background-color: #141922;
     overflow-y: auto;
     padding-top: 100px;
@@ -35,5 +36,7 @@ main{
 footer{
     height: 100px;
     background-color: #282828;
+    position: fixed;
+    width: 100%;
 }
 
