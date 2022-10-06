@@ -31,6 +31,8 @@ main{
     background-color: #141922;
     overflow-y: auto;
     padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 40px;
 }
 
 footer{

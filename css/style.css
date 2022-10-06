@@ -2,6 +2,7 @@
 @import url(debug.css);
 @import url(common.css);
 @import url(aside.css);
+@import url(footer.css);
 
 /* HEADER */
 .h-button{
@@ -18,94 +19,102 @@
     font-size: .8125rem;
 }
 
-/* FOOTER */
-.footer-container{
-    justify-content: space-between;
+
+/* MAIN */
+.top-main{ 
+    justify-content: center;
+    color: grey;
+    margin-bottom: 30px;
 }
-.song-img-footer img{
-    width: 60px;
+/* barra colorata */
+.green-line-container{
+    height: 2px;
+    width: 111px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
 }
-.song-info{
-    margin-left: 15px;
+.green-line{
+    background-color: greenyellow;
+    width: 45px;
+    height: 100%;
+    border-radius: 100px;
 }
-.song-info h1{
+/* ///// */
+.list-main li{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.list-main li :last-child{
+    margin: 0;
+}
+/* recently played */
+.section-title{
     font-size: 15px;
 }
-.song-info h2{
-    font-size: 13px;
-    color: grey;
+.row{
+    margin-top: 30px;
 }
-.left-footer{
-    align-items: center;
-    padding-right: 40px;
-}
-.song-symbol{
-    margin-left: 30px;
-    color: grey;
-}
-.song-symbol button{
-    font-size: 19px;
-    margin-left: 15px;
-}
-
-/* middle */
-.middle-footer{
-    align-items: center;
-}
-.music-buttons{
-    color: white;
-}
-.music-buttons button{
-    font-size: 20px;
-    width: max-content;
-}
-.music-buttons button{
-    margin-left: 20px;
-}
-.music-buttons button:nth-child(3){
-    margin-right:10px;
-    margin-left: 30px;
-    font-size: 35px;
-}
-.minute {
-    font-size: 12px;
-}
-.lower-div{
-    margin-top: 10px;
-    align-items: center;
-}
-.music-bar{
-    background-color: grey;
-    width: 500px;
-    height: 4px;
-    border-radius: 50px;
-    margin-left: 20px;
+.album-col{
+    width: calc((100%/6));  
     margin-right: 20px;
 }
-/* right */
-.right-footer{
-    align-items: center;
-    padding-left:40px;
+.album-col img{
+    width: 100%;
 }
-.sound-bar{
-    background-color: grey;
-    width: 130px;
-    height: 4px;
-    border-radius: 50px;
-    margin-left: 8px;
-}
-.right-footer li{
-    margin-left: 20px;
+.album-info h3{
     font-size: 14px;
+    color: grey;
+    margin-top: 10px;
 }
-
-
-
+.album-info h2{
+    font-size: 20px;
+    text-align: center;
+}
+.album-info{
+    margin-top: 20px;
+    align-items: center;
+}
+/* for you */
+.section-title h2{
+    color: grey;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.for-you{
+    margin-top: 40px;
+}
 
 
 
 
 /* RESPONSIVE */
+@media screen and (max-width: 1100px){
+    .song-symbol{
+        flex-direction: column;
+    }
+    .list-main-layout{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .album-col{
+        width: calc((100%/4) - 20px);
+        margin-top: 10px;
+    }
+}
+
+
+
+@media  screen and (max-width: 700px) {
+    .album-col{
+        width: calc((100%/2) - 20px);
+    }
+}
+
 @media screen and (max-width: 600px) {
     .hide{
         display: none;
@@ -129,10 +138,4 @@
    .user-download-resp{
     padding-top: 410px;
    }
-}
-
-@media screen and (max-width: 1100px){
-    .song-symbol{
-        flex-direction: column;
-    }
 }
