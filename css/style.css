@@ -18,6 +18,12 @@
 }
 
 /* ASIDE */
+.logo-responsive{
+    margin-bottom: 20px;
+}
+.nav-responsive{
+    display: none;
+}
 aside{
     color: white
 }
@@ -88,3 +94,34 @@ aside{
     width: 20px;
 }
 
+
+
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+    .hide{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    aside{
+        width: max-content;
+        padding:10px;
+    }
+    main, header{
+        width: calc(100% - 50px);
+    }
+   header{
+    left:50px
+   }
+   .logo-responsive img{
+    width: 35px;
+   }
+   .user-download-resp{
+    padding-top: 410px;
+   }
+}
