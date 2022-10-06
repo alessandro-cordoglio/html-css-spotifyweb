@@ -93,15 +93,17 @@
                     </div>
                     <hr>
                     <div class="user flex-row">
-                        <div class="profile-img">
+                        <div class="profile-img flex-row">
                         <img src="img/profile.svg" alt="">
                         </div>
-                        John Doe
+                        <span class="user-name">
+                            John Doe
+                        </span>
                     </div>
             </div>
-            
+            <!-- NAV RESPONSIVE -->
             <div class="nav-responsive">
-            <!-- nav <= 600 px -->
+                <!-- nav <= 600 px -->
                 <div class="logo-responsive">
                     <img src="img/logo-small.svg" alt="">
                 </div>
@@ -144,7 +146,69 @@
     </div>
     
     <footer>
+        <div class="footer-container flex-row">
+            <div class="left-footer flex-row font-white">
+                <div class="song-img-footer ">
+                    <img src="img/sinister.jpeg" alt="">
+                </div>
+                <div class="song-info flex-column">
+                    <h1>Sinister</h1>
+                    <a href="" class="button"><h2>Brano nome</h2></a>
+                </div>
+                <div class="song-symbol flex-row">
+                    <div>
+                        <button class="heart button"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div>
+                        <button class="folder button"> <i class="fa-regular fa-folder"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-footer flex-column">
+                <div class="music-buttons">
+                    <button class="button">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </button>
+                    <button class="button">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </button>
+                    <button class="button player">
+                        <i class="fa-regular fa-circle-play"></i>
+                    </button>
+                    <button class="button">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </button>
+                    <button class="button">
+                        <i class="fa-solid fa-arrow-rotate-right"></i>
+                    </button>
+                </div>
+                <div class="lower-div flex-row">
+                    <div class="minute">
+                        <span class="font-white">
+                            0:25
+                        </span>
+                    </div>
+                    <div class="music-bar flex-row">
 
+                    </div>
+                    <div class="minute">
+                        <span class="font-white">
+                            4:35
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="right-footer flex-row">
+                <ul class="flex-row font-white">
+                    <li class="button"><i class="fa-solid fa-list"></i></li>
+                    <li class="button"><i class="fa-solid fa-tv"></i></li>
+                    <li class="button"><i class="fa-solid fa-volume-high"></i></li>
+                </ul>
+                <div class="sound-bar">
+
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

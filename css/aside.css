@@ -1,0 +1,88 @@
+/* ASIDE */
+.logo-responsive{
+    margin-bottom: 20px;
+}
+.nav-responsive{
+    display: none;
+}
+aside{
+    color: white
+}
+.logo{
+    width: 140px;
+    padding-bottom: 20px;
+}
+.list-item img{
+    width: 30px;
+    filter: invert(50%);
+}
+.first-lateral-nav img:first-child{
+    filter: none;
+}
+.list-item{
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: max-content;
+    color: #585858;
+}
+.first-lateral-nav li:first-child{
+    color: white;
+}
+/* playlist */
+.playlist-title{
+    margin-top: 30px;
+    margin-bottom: 10px ;
+}
+.playlist-title h2{
+    font-size: 16px;
+}
+.link-img i{
+    font-size: 40px;
+    color: grey;
+    margin-right: 10px;
+}
+.playlist-info:first-child{
+    font-size: 16px;
+}
+.playlist-info{
+    margin-bottom: 20px;
+    overflow-y: auto;
+}
+.playlist-list{
+    overflow-y: auto;
+    margin-bottom: 145px ;
+}
+/* download */
+.download{
+    margin-bottom: 5px;
+}
+.download a{
+    color: grey;
+    font-size: 13px;
+    align-items: center;
+}
+.download img{
+    width: 20px;
+    margin-right: 10px;
+    filter: invert(40%);
+}
+.user{
+    margin-top: 20px;
+    align-items: center;
+}
+.user-name{
+    margin-left: 10px;
+}
+.profile-img{
+    border-radius: 50px;
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.profile-img img{
+    width: 20px;
+}

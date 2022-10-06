@@ -6,6 +6,11 @@ body{
 
 .button{
     text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    list-style: none;
 }
 .font-white{
     color: white;

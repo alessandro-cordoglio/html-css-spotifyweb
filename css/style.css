@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(debug.css);
 @import url(common.css);
+@import url(aside.css);
 
 /* HEADER */
 .h-button{
@@ -17,81 +18,85 @@
     font-size: .8125rem;
 }
 
-/* ASIDE */
-.logo-responsive{
-    margin-bottom: 20px;
+/* FOOTER */
+.footer-container{
+    justify-content: space-between;
 }
-.nav-responsive{
-    display: none;
+.song-img-footer img{
+    width: 60px;
 }
-aside{
-    color: white
+.song-info{
+    margin-left: 15px;
 }
-.logo{
-    width: 140px;
-    padding-bottom: 20px;
+.song-info h1{
+    font-size: 15px;
 }
-.list-item img{
-    width: 30px;
-    filter: invert(50%);
+.song-info h2{
+    font-size: 13px;
+    color: grey;
 }
-.first-lateral-nav img:first-child{
-    filter: none;
-}
-.list-item{
+.left-footer{
     align-items: center;
-    margin-bottom: 10px;
-    font-size: 14px;
-    cursor: pointer;
-    width: max-content;
-    color: #585858;
+    padding-right: 40px;
 }
-.first-lateral-nav li:first-child{
+.song-symbol{
+    margin-left: 30px;
+    color: grey;
+}
+.song-symbol button{
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+/* middle */
+.middle-footer{
+    align-items: center;
+}
+.music-buttons{
     color: white;
 }
-/* playlist */
-.playlist-title{
-    margin-top: 30px;
-    margin-bottom: 10px ;
+.music-buttons button{
+    font-size: 20px;
+    width: max-content;
 }
-.playlist-title h2{
-    font-size: 16px;
+.music-buttons button{
+    margin-left: 20px;
 }
-.link-img i{
-    font-size: 40px;
-    color: grey;
-    margin-right: 10px;
+.music-buttons button:nth-child(3){
+    margin-right:10px;
+    margin-left: 30px;
+    font-size: 35px;
 }
-.playlist-info:first-child{
-    font-size: 16px;
+.minute {
+    font-size: 12px;
 }
-.playlist-info{
-    margin-bottom: 20px;
-    overflow-y: auto;
-}
-.playlist-list{
-    overflow-y: auto;
-    padding-bottom:160px ;
-}
-/* download */
-.download{
-    margin-bottom: 5px;
-}
-.download a{
-    color: grey;
-    font-size: 13px;
+.lower-div{
+    margin-top: 10px;
     align-items: center;
 }
-.download img{
-    width: 20px;
-    margin-right: 10px;
-    filter: invert(40%);
+.music-bar{
+    background-color: grey;
+    width: 500px;
+    height: 4px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.user{
-    margin-top: 20px;
+/* right */
+.right-footer{
+    align-items: center;
+    padding-left:40px;
 }
-.profile-img img{
-    width: 20px;
+.sound-bar{
+    background-color: grey;
+    width: 130px;
+    height: 4px;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+.right-footer li{
+    margin-left: 20px;
+    font-size: 14px;
 }
 
 
@@ -124,4 +129,10 @@ aside{
    .user-download-resp{
     padding-top: 410px;
    }
+}
+
+@media screen and (max-width: 1100px){
+    .song-symbol{
+        flex-direction: column;
+    }
 }
