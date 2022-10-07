@@ -92,6 +92,8 @@
 @media screen and (max-width: 1100px){
     .song-symbol{
         flex-direction: column;
+        margin-left: 0;
+        padding-right: 10px;
     }
     .list-main-layout{
         flex-wrap: wrap;

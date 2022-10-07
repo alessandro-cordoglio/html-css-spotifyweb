@@ -48,11 +48,9 @@ aside{
 }
 .playlist-info{
     margin-bottom: 20px;
-    overflow-y: auto;
 }
 .playlist-list{
     overflow-y: auto;
-    margin-bottom: 145px ;
 }
 /* download */
 .download{

@@ -9,34 +9,35 @@
     margin-left: 15px;
 }
 .song-info h1{
-    font-size: 15px;
+    font-size: 13px;
 }
 .song-info h2{
-    font-size: 13px;
+    font-size: 12px;
     color: grey;
 }
 .left-footer{
     align-items: center;
-    padding-right: 40px;
+    width: 20%;
 }
 .song-symbol{
     margin-left: 30px;
     color: grey;
 }
 .song-symbol button{
-    font-size: 19px;
+    font-size: 17px;
     margin-left: 15px;
 }
 
 /* middle */
 .middle-footer{
     align-items: center;
+    flex-grow: 1;
 }
 .music-buttons{
     color: white;
 }
 .music-buttons button{
-    font-size: 20px;
+    font-size: 15px;
     width: max-content;
 }
 .music-buttons button{
@@ -45,7 +46,7 @@
 .music-buttons button:nth-child(3){
     margin-right:10px;
     margin-left: 30px;
-    font-size: 35px;
+    font-size: 25px;
 }
 .minute {
     font-size: 12px;
@@ -53,25 +54,28 @@
 .lower-div{
     margin-top: 10px;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .music-bar{
     background-color: grey;
-    width: 500px;
+    max-width: 500px;
     height: 4px;
     border-radius: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    width: 100%;
 }
 .inside-music-bar{
     height: 100%;
     background-color: white;
-    width: 100px;
+    width: 100%;
     border-radius: 100px;
 }
 /* right */
 .right-footer{
     align-items: center;
-    padding-left:40px;
+    width: 20%;
 }
 .sound-bar{
     background-color: grey;
